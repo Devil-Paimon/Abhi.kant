@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=VT323&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Landing Resume Button */
+
+.btn-resume {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #047aff;
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #25a3e7;
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+.btn-resume:active {
+  scale: 0.92;
+}
+
+.btn-resume:hover {
+  background: rgb(2, 29, 78);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 29, 78, 0.681) 0%,
+    rgba(31, 215, 232, 0.873) 60%
+  );
+  color: rgb(255, 255, 255);
+}
+
+@keyframes typing {
+  0.0000%,
+  27.3488% {
+    content: "";
+  }
+  1.1395%,
+  26.2093% {
+    content: "w";
+  }
+  2.2791%,
+  25.0698% {
+    content: "we";
+  }
+  3.4186%,
+  23.9302% {
+    content: "web";
+  }
+  4.5581%,
+  22.7907% {
+    content: "web-";
+  }
+  5.6977%,
+  21.6512% {
+    content: "web-d";
+  }
+  6.8372%,
+  20.5116% {
+    content: "web-de";
+  }
+  7.9767%,
+  19.3721% {
+    content: "web-dev";
+  }
+
+  30.7674%,
+  51.2791% {
+    content: "";
+  }
+  31.9070%,
+  50.1395% {
+    content: "U";
+  }
+  33.0465%,
+  49.0000% {
+    content: "UI";
+  }
+  34.1860%,
+  47.8605% {
+    content: "UI/";
+  }
+  35.3256%,
+  46.7209% {
+    content: "UI/U";
+  }
+  36.4651%,
+  45.5814% {
+    content: "UI/UX";
+  }
+
+  54.6977%,
+  75.2093% {
+    content: "";
+  }
+  55.8372%,
+  74.0698% {
+    content: "c";
+  }
+  56.9767%,
+  72.9302% {
+    content: "cl";
+  }
+  58.1163%,
+  71.7907% {
+    content: "clo";
+  }
+  59.2558%,
+  70.6512% {
+    content: "clou";
+  }
+  60.3953%,
+  69.5116% {
+    content: "cloud";
+  }
+
+  78.6279%,
+  96.8605% {
+    content: "B";
+  }
+  79.7674%,
+  95.7209% {
+    content: "Bl";
+  }
+  80.9070%,
+  94.5814% {
+    content: "Blo";
+  }
+  81.9070%,
+  94.0000% {
+    content: "Bloc";
+  }
+  82.0465%,
+  93.4419% {
+    content: "Block";
+  }
+  83.1860%,
+  92.3023% {
+    content: "BlockC";
+  }
+  84.3256%,
+  91.1628% {
+    content: "BlockCh";
+  }
+  85.3256%,
+  90.1628% {
+    content: "BlockCha";
+  }
+  86.3256%,
+  89.1628% {
+    content: "BlockChai";
+  }
+  87.3256%,
+  88.1628% {
+    content: "BlockChain";
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+
+  @keyframes sequencePopup {
+    0%,
+    100% {
+      content: "developer";
+    }
+    25% {
+      content: "writer";
+    }
+    50% {
+      content: "reader";
+    }
+    75% {
+      content: "human";
+    }
+  }
+
+  .typewriter::before {
+    content: "developer";
+    animation: sequencePopup 12s linear infinite;
+  }
+}
+
+#profileDp {
+  animation: image 10s infinite;
+  transition: all ease-in-out;
+}
+
+@keyframes image {
+  0% {
+    border-radius: 300px 200px 180px;
+  }
+  25% {
+    border-radius: 200px 300px 250px;
+  }
+  50% {
+    border-radius: 300px 200px 150px;
+  }
+  75% {
+    border-radius: 200px 300px 250px;
+  }
+  100% {
+    border-radius: 300px 200px 180px;
+  }
+}
+
+/* about boxes */
+.card-about {
+  height: 254px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-about-inner {
+  /* width: inherit; */
+  height: inherit;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.card-about:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#e2deff, #ffffff);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -10px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
+  }
+}
+
+/* skills  */
+.wobble-hor-top {
+  background: #ffffff;
+  box-shadow: inset 5px 5px 5px #5a5a5a, inset -5px -5px 5px #ffffff;
+}
+.wobble-hor-top:hover {
+  animation: wobble-hor-top 0.8s both;
+}
+@keyframes wobble-hor-top {
+  0%,
+  100% {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+/* contact box */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #ffffff;
+  transition: 0.4s ease-in-out;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #047aff;
+  box-shadow: inset 2px 5px 10px #004fa8;
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #ffffff;
+}
+
+/* projects
+ */
+.project-box {
+  background: #ffffff;
+  box-shadow: inset 7px 7px 14px #5a5a5a, inset -7px -7px 14px #ffffff;
+}
+.avatar-img {
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 8px #5a5a5a, -5px -5px 8px #ffffff;
+}
+/* source btn */
+button {
+  font-family: inherit;
+  font-size: 17px;
+  background: #047aff;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+/* visit btn */
+.cssbuttons-io-button {
+  background: #047aff;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #0466d4;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #0466d4;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/* Journey */
+.card-j {
+  position: relative;
+
+  background: #047aff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-j::before,
+.card-j::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #81cfd1;
+  transition: all 0.5s;
+}
+
+.card-j::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.card-j::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+}
+
+.card-j:hover::before,
+.card-j:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card-j:hover:after {
+  content: "";
+}
