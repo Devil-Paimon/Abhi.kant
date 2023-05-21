@@ -265,7 +265,7 @@ body {
 .circle {
   width: 100px;
   height: 100px;
-  background: radial-gradient(#e2deff, #ffffff);
+  background: radial-gradient(#ffb300, #fdb813);
   border-radius: 50%;
   position: absolute;
   animation: move-up6 2s ease-in infinite alternate-reverse;
@@ -326,6 +326,18 @@ body {
 }
 
 /* contact box */
+
+#ghost-img {
+  animation: up-down 4s infinite;
+  transition: up-down ease-in-out;
+}
+
+@keyframes up-down {
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 .form {
   display: flex;
   flex-direction: column;
