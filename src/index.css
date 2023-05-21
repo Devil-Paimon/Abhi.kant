@@ -243,7 +243,7 @@ body {
 
 /* about boxes */
 .card-about {
-  height: 254px;
+  
   transition: all 0.2s;
   position: relative;
   cursor: pointer;
@@ -358,15 +358,15 @@ body {
   padding: 0.6em;
   border: none;
   outline: none;
-  color: white;
-  background-color: #047aff;
-  box-shadow: inset 2px 5px 10px #004fa8;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  box-shadow: inset 2px 5px 10px #474747;
 }
 
 .input-icon {
   height: 1.3em;
   width: 1.3em;
-  fill: white;
+  fill: rgb(0, 0, 0);
 }
 
 .input-field {
@@ -374,7 +374,7 @@ body {
   border: none;
   outline: none;
   width: 100%;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* projects

@@ -21,11 +21,8 @@ const project = {
 const Projects = () => {
   return (
     <>
-      <div
-        id="projects"
-        className="h-full md:h-screen bg-primary pt-10 pb-5 md:pb-0 "
-      >
-        <h1 className="text-3xl text-white font-bold text-center underline pt-5 ">
+      <div id="projects" className="h-full md:h-screen  pt-10 pb-5 md:pb-0 ">
+        <h1 className="text-3xl text-black font-bold text-center underline pt-5 ">
           Projects
         </h1>
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-0 justify-items-center mt-12">
@@ -77,7 +74,7 @@ const Projects = () => {
                                       </svg>
                                     </div>
                                   </div>
-                                  <span>Send</span>
+                                  <span>Source</span>
                                 </button>
                               </a>
                               <a
