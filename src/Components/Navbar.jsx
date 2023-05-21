@@ -70,13 +70,18 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#skills" className="text-white text-lg font-semibold">
+                <a
+                  href="#skills"
+                  onClick={() => setMenu(!menu)}
+                  className="text-white text-lg font-semibold"
+                >
                   Skills
                 </a>
               </li>
               <li>
                 <a
                   href="#projects"
+                  onClick={() => setMenu(!menu)}
                   className="text-white text-lg font-semibold"
                 >
                   Projects
@@ -84,7 +89,11 @@ const Navbar = () => {
               </li>
 
               <li>
-                <a href="#contact" className="text-white text-lg font-semibold">
+                <a
+                  href="#contact"
+                  onClick={() => setMenu(!menu)}
+                  className="text-white text-lg font-semibold"
+                >
                   Contact
                 </a>
               </li>
