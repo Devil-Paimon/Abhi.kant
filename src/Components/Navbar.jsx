@@ -23,14 +23,23 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a className="text-white text-lg font-semibold">Skills</a>
+                <a href="#skills" className="text-white text-lg font-semibold">
+                  Skills
+                </a>
               </li>
               <li>
-                <a className="text-white text-lg font-semibold">Projects</a>
+                <a
+                  href="#projects"
+                  className="text-white text-lg font-semibold"
+                >
+                  Projects
+                </a>
               </li>
 
               <li>
-                <a className="text-white text-lg font-semibold">Contact</a>
+                <a href="#contact" className="text-white text-lg font-semibold">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -61,14 +70,23 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a className="text-white text-lg font-semibold">Skills</a>
+                <a href="#skills" className="text-white text-lg font-semibold">
+                  Skills
+                </a>
               </li>
               <li>
-                <a className="text-white text-lg font-semibold">Projects</a>
+                <a
+                  href="#projects"
+                  className="text-white text-lg font-semibold"
+                >
+                  Projects
+                </a>
               </li>
 
               <li>
-                <a className="text-white text-lg font-semibold">Contact</a>
+                <a href="#contact" className="text-white text-lg font-semibold">
+                  Contact
+                </a>
               </li>
             </ul>
           )}

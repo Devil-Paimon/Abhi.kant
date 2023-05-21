@@ -2,7 +2,7 @@ import { AiOutlineMail } from "react-icons/ai";
 const Contact = () => {
   return (
     <>
-      <div className="pb-16">
+      <div id="contact" className="pb-16">
         <form className="flex flex-col items-center justify-between gap-5 form ">
           <p className="text-3xl font-semibold text-center pt-16 pb-5 text-black underline">
             Contact
