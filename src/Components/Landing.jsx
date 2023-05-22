@@ -35,13 +35,19 @@ const Landing = () => {
               <h1 className="text-4xl md:text-6xl font-bold text-base-content">
                 Development
               </h1>
-              <div className="mt-5 md:mt-16 lg:mt-16">
-                <button className="btn-resume">
-                  Resume
-                  <div>
-                    <BsFillSendFill />
-                  </div>
-                </button>
+              <div className="mt-5 md:mt-16  lg:mt-16">
+                <a
+                  href="https://ik.imagekit.io/e5ixuxrlb/portfolio/resume.pdf?updatedAt=1684752606295"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="h-12 md:h-full btn-resume">
+                    Resume
+                    <div>
+                      <BsFillSendFill />
+                    </div>
+                  </button>
+                </a>
               </div>
             </div>
           </div>

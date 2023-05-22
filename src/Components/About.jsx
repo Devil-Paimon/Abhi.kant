@@ -35,7 +35,7 @@ const About = () => {
           {Object.entries(aboutData).map((item, index) => {
             return (
               <div
-                className="w-11/12 h-[20.5rem] md:h-60  card-about"
+                className="w-11/12 md:w-3/4 h-[20.5rem] md:h-64  card-about"
                 key={index}
               >
                 <div className="circle"></div>

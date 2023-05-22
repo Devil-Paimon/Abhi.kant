@@ -44,7 +44,7 @@ const Skills = () => {
       <div className=" grid grid-cols-1 md:grid-cols-3 justify-items-center pb-5 gap-8 md:gap-0  ">
         {Object.entries(skillData).map((data, item) => {
           return (
-            <div key={item} className="w-96 flex flex-col gap-5">
+            <div key={item} className="w-full p-5 flex flex-col gap-5">
               <h1 className="text-3xl font-bold text-white text-center">
                 {data[0]}
               </h1>
@@ -61,7 +61,7 @@ const Skills = () => {
                             <div
                               id="box-shake"
                               key={y}
-                              className="flex flex-row justify-between items-center pl-5 pr-5  rounded-lg shadow-xl wobble-hor-top"
+                              className="flex flex-row justify-between items-center pl-5 pr-5   rounded-lg shadow-xl wobble-hor-top"
                             >
                               <p className="text-black text-xl font-semibold">
                                 {x[1][0]}

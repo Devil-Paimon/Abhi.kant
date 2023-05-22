@@ -32,8 +32,11 @@ const Projects = () => {
                 <div>
                   {data[1].map((value, index) => {
                     return (
-                      <div key={index}>
-                        <div className="card w-96 h-4/5 bg-white text-primary-content project-box ">
+                      <div
+                        key={index}
+                        className="flex justify-center items-center"
+                      >
+                        <div className="card w-4/5 h-4/5 bg-white text-primary-content project-box ">
                           <div className="card-body flex flex-col gap-8">
                             <div className="flex flex-row justify-between items-center text-black">
                               <h2 className="card-title text-3xl font-semibold ">
