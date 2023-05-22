@@ -21,7 +21,7 @@ const project = {
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="h-full md:h-screen  pt-10 pb-5 md:pb-0 ">
+      <div id="projects" className="h-full   pt-10 pb-5 ">
         <h1 className="text-3xl text-black font-bold text-center underline pt-5 ">
           Projects
         </h1>
