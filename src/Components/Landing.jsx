@@ -9,13 +9,25 @@ const Landing = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-16 items-center  h-4/5">
           <div className="flex flex-row mt-0 w-full justify-evenly ">
             <div className="pr-5 flex flex-col gap-5 mt-2 md:mt-5">
-              <a href="">
+              <a
+                href="https://github.com/Devil-Paimon"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsGithub className="text-2xl animate-pulse" />
               </a>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/connect-with-abhishek-kant"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsLinkedin className="text-2xl animate-pulse" />
               </a>
-              <a href="">
+              <a
+                href="https://www.instagram.com/apk27922/?igshid=NGExMmI2YTkyZg=="
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsInstagram className="text-2xl animate-pulse" />
               </a>
             </div>
