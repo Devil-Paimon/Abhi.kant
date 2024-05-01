@@ -4,7 +4,7 @@ const project = {
       name: "UDBHAV",
       desc: "A Website based on React & FireBase to conduct IERT's Annual Cultural Fest, UDBHAV. It gives information about various events and enables users to register in events of their choice.",
       icon: "https://ik.imagekit.io/e5ixuxrlb/Udbhav/Card_Images/Udbhav/udbhavCard.png?updatedAt=1681228622711",
-      link: "https://www.udbhav.life/",
+      link: "https://udbhav-2023-devil-paimon.vercel.app/",
       source: "https://github.com/Devil-Paimon/udbhav-2023",
     },
   ],
