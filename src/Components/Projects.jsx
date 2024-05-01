@@ -21,18 +21,18 @@ const project = {
     {
       name: "E-Commerce",
       desc: "Designed and prototyped an intuitive and user-friendly E-commerce platform using Figma, incorporating best practices in UI/UX design, such as responsive layouts, clear navigation systems, and interactive elements to enhance user engagement.",
-      icon: "https://ik.imagekit.io/e5ixuxrlb/qr_code/barcode.png?updatedAt=1683795754268",
+      icon: "https://ik.imagekit.io/e5ixuxrlb/portfolio/ecommerce.png?updatedAt=1714595279846",
       link: "https://www.figma.com/file/fvc7mOolWgpfFmjNuNuP4r/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1%3A3&mode=design&t=qpd65GtPwva5DONo-1",
-      source: "https://github.com/Devil-Paimon/qr_code",
+      source: "https://www.figma.com/file/fvc7mOolWgpfFmjNuNuP4r/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1%3A3&mode=design&t=qpd65GtPwva5DONo-1",
     },
   ],
-  "E-commerce Website UI/UX": [
+  "ProEnvironment": [
     {
-      name: "E-Commerce",
-      desc: "Designed and prototyped an intuitive and user-friendly E-commerce platform using Figma, incorporating best practices in UI/UX design, such as responsive layouts, clear navigation systems, and interactive elements to enhance user engagement.",
-      icon: "https://ik.imagekit.io/e5ixuxrlb/qr_code/barcode.png?updatedAt=1683795754268",
-      link: "https://www.figma.com/file/fvc7mOolWgpfFmjNuNuP4r/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1%3A3&mode=design&t=qpd65GtPwva5DONo-1",
-      source: "https://github.com/Devil-Paimon/qr_code",
+      name: "ProEnvironment",
+      desc: "Designed and prototyped an intuitive and user-friendly website promoting sustainable goods using Figma, incorporating best practices in UI/UX design, such as responsive layouts, clear navigation systems, and interactive elements to enhance user engagement.",
+      icon: "https://ik.imagekit.io/e5ixuxrlb/portfolio/Stnaford_EightSimpleThings_3000x1000-scaled.jpg?updatedAt=1714595341233",
+      link: "https://www.figma.com/file/d1WertQDcRliYfrZeBYr19/Sample-Design---Environmental-Project?type=design&node-id=0%3A1&mode=design&t=I5ED1b5zrF9wVPEV-1",
+      source: "https://www.figma.com/file/d1WertQDcRliYfrZeBYr19/Sample-Design---Environmental-Project?type=design&node-id=0%3A1&mode=design&t=I5ED1b5zrF9wVPEV-1",
     },
   ],
 };
