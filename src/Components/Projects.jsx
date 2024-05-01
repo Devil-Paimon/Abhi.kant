@@ -26,6 +26,15 @@ const project = {
       source: "https://github.com/Devil-Paimon/qr_code",
     },
   ],
+  "E-commerce Website UI/UX": [
+    {
+      name: "E-Commerce",
+      desc: "Designed and prototyped an intuitive and user-friendly E-commerce platform using Figma, incorporating best practices in UI/UX design, such as responsive layouts, clear navigation systems, and interactive elements to enhance user engagement.",
+      icon: "https://ik.imagekit.io/e5ixuxrlb/qr_code/barcode.png?updatedAt=1683795754268",
+      link: "https://www.figma.com/file/fvc7mOolWgpfFmjNuNuP4r/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1%3A3&mode=design&t=qpd65GtPwva5DONo-1",
+      source: "https://github.com/Devil-Paimon/qr_code",
+    },
+  ],
 };
 const Projects = () => {
   return (
@@ -34,7 +43,7 @@ const Projects = () => {
         <h1 className="text-3xl text-black font-bold text-center underline pt-5 ">
           Projects
         </h1>
-        <div className=" grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-0 justify-items-center mt-12">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-0 justify-items-center mt-12 ">
           {Object.entries(project).map((data, item) => {
             return (
               <div key={item}>
@@ -43,7 +52,7 @@ const Projects = () => {
                     return (
                       <div
                         key={index}
-                        className="flex justify-center items-center"
+                        className="flex justify-center items-center mt-10"
                       >
                         <div className="card w-4/5 h-4/5 bg-white text-primary-content project-box ">
                           <div className="card-body flex flex-col gap-8">
