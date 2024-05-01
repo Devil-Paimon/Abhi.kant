@@ -17,6 +17,15 @@ const project = {
       source: "https://github.com/Devil-Paimon/qr_code",
     },
   ],
+  "E-commerce Website UI/UX": [
+    {
+      name: "E-Commerce",
+      desc: "Designed and prototyped an intuitive and user-friendly E-commerce platform using Figma, incorporating best practices in UI/UX design, such as responsive layouts, clear navigation systems, and interactive elements to enhance user engagement.",
+      icon: "https://ik.imagekit.io/e5ixuxrlb/qr_code/barcode.png?updatedAt=1683795754268",
+      link: "https://www.figma.com/file/fvc7mOolWgpfFmjNuNuP4r/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1%3A3&mode=design&t=qpd65GtPwva5DONo-1",
+      source: "https://github.com/Devil-Paimon/qr_code",
+    },
+  ],
 };
 const Projects = () => {
   return (
