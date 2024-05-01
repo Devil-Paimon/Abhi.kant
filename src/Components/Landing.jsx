@@ -49,7 +49,7 @@ const Landing = () => {
               </h1>
               <div className="mt-5 md:mt-16  lg:mt-16">
                 <a
-                  href="https://ik.imagekit.io/e5ixuxrlb/portfolio/Resume2024.pdf?updatedAt=1711562835079"
+                  href="https://ik.imagekit.io/e5ixuxrlb/portfolio/Resume%20-%20Abhishek_Kant.pdf?updatedAt=1714596923758"
                   target="_blank"
                   rel="noreferrer"
                 >
